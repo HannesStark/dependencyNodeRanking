@@ -1,0 +1,74 @@
+\maketitle
+\section{Different Measures of Centrality}
+
+\paragraph{Dependency Centrality}\mbox{} \medskip \\
+The question of what node in a network is the most central one is often interesting
+and important for making the optimal decision for many cases in multiple fields. 
+The four most common centrality measures are degree-, closeness-, betweenness- and eigenvector 
+centrality. The following describes those measures and will introduce an additional kind of 
+centrality named dependency centrality. Networks are represented as graphs.
+
+\paragraph{Degree Centrality}\mbox{} \medskip \\
+The most central nodes are the ones that are connected to the most other nodes.
+Which more precisely means the nodes for which the amount of edges that contain them is the highest. 
+An application of this measure would be to ask what twitter account has the most followers.
+Here twitter accounts are the nodes and the fact that one account follows another corresponds 
+to an edge between those accounts/nodes.
+
+\paragraph{Closeness Centrality}\mbox{} \medskip \\
+The most central nodes are the ones that are on average the closest to every other node
+in the graph with closeness meaning the minimum number of edges one has to travel to get to another node.
+
+\paragraph{Betweenness Centrality}\mbox{} \medskip \\
+For this measure to find the most central node one first considers every shortest
+path between every node. The node that lies on the highest amount of such paths is the
+most central one. An example where this measure would be interesting is in a network
+of computers if an attacker wants to sniff as much traffic between those computers aspossible.
+The most ideal target would be the most central one according to betweenness centrality.
+
+\paragraph{Eigenvector Centrality}\mbox{} \medskip \\
+The most central node is recursively defined as the node that is connected to the highest number
+of other nodes that themselves have a high degree of centrality again. In a network of facebook
+accounts, with the fact that one account is befriended with another as an edge, eigenvector centrality
+would be a good measure to determine what account can influence the most users. For this problem you
+do not want to use degree centrality since the account that has the most friends does not necessarily
+have the most reach. The account with the most influence is rather the one that has a lot of friends
+that themselves have a lot of friends and so on.
+
+\paragraph{Dependency Centrality}\mbox{} \medskip \\
+
+
+\section{Calculating Centrality}
+
+\paragraph{Eigenvector Centrality Calculation}\mbox{} \medskip \\
+Finding the most central node according to eigenvector centrality is less straight forward than 
+according to degree-, closeness- or betweenness centrality. To do so one can represent the graph 
+as an adjacency matrix of size $n \times n$ with $n$ as the number of nodes. Each node of the graph 
+corresponds to a row and a column of the matrix. If there is an edge from node $a$ to node $b$
+in the graph, then in the matrix there is a one in row $a$ and column $b$.
+
+\begin {center}
+\begin {tikzpicture}[-latex ,auto ,node distance =2 cm and 2cm ,on grid ,
+semithick ,
+state/.style ={ circle ,top color =white, draw, minimum width =.5 cm}]
+\node[state] (C) {$1$};
+\node[state] (A) [above left=of C] {$0$};
+\node[state] (B) [above right =of C] {$2$};
+\path (C) edge [] (A);
+\path (A) edge [] (C);
+\path (A) edge [] (B);
+\path (B) edge [] (A);
+\path (C) edge [] (B);
+\path (B) edge [] (C);
+\end{tikzpicture}
+\end{center}
+
+
+For this adjacency matrix one can calculate the eigenvectors $x$ and the corresponding 
+eigenvalues $ \lambda $ that solve the equation $Ax = \lambda x$. The important eigenvector is the one 
+with the highest eigenvalue. In this vector the index of the highest entry is the 
+index of the row and the column that corresponds to the most central node.
+
+graph und adjazenzmatrix als visualisierung
+
+\paragraph{Dependency Centrality Calculation}\mbox{} \medskip \\

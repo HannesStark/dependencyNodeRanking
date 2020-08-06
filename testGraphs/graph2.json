@@ -1,0 +1,338 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "type": "Domain",
+      "label": "1",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1085.1710704201842,
+      "y": 616.9963364814585,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    },
+    {
+      "id": 2,
+      "type": "Domain",
+      "label": "2",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1098.8734941097052,
+      "y": 622.4597097898641,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    },
+    {
+      "id": 3,
+      "type": "Domain",
+      "label": "3",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1090.2749705027363,
+      "y": 605.2666529888315,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    },
+    {
+      "id": 4,
+      "type": "Domain",
+      "label": "4",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1071.6273448638979,
+      "y": 619.9545773208055,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "type": "straightArrow",
+      "source": 1,
+      "target": 2,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 50,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": 10
+        },
+        "2": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 2,
+      "type": "straightArrow",
+      "source": 2,
+      "target": 1,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 3,
+      "type": "straightArrow",
+      "source": 1,
+      "target": 3,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      },
+      "hover": false
+    },
+    {
+      "id": 4,
+      "type": "straightArrow",
+      "source": 3,
+      "target": 1,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 5,
+      "type": "straightArrow",
+      "source": 3,
+      "target": 2,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      },
+      "hover": false
+    },
+    {
+      "id": 6,
+      "type": "straightArrow",
+      "source": 2,
+      "target": 3,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 7,
+      "type": "straightArrow",
+      "source": 1,
+      "target": 4,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      },
+      "hover": false
+    },
+    {
+      "id": 8,
+      "type": "straightArrow",
+      "source": 4,
+      "target": 1,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    }
+  ],
+  "spotlight": {
+    "17956": [
+      "INTERNAL.LOCAL",
+      0,
+      "",
+      "Domain",
+      ""
+    ],
+    "17957": [
+      "EXTERNAL.LOCAL",
+      0,
+      "",
+      "Domain",
+      ""
+    ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "nodes": [
+    {
+      "id": 10,
+      "type": "Domain",
+      "label": "1",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1085.1710704201842,
+      "y": 616.9963364814585,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    },
+    {
+      "id": 20,
+      "type": "Domain",
+      "label": "2",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1098.8734941097052,
+      "y": 622.4597097898641,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    },
+    {
+      "id": 30,
+      "type": "Domain",
+      "label": "3",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1090.2749705027363,
+      "y": 605.2666529888315,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    },
+    {
+      "id": 40,
+      "type": "Domain",
+      "label": "3",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1090.2749705027363,
+      "y": 605.2666529888315,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    },
+    {
+      "id": 50,
+      "type": "Domain",
+      "label": "3",
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1090.2749705027363,
+      "y": 605.2666529888315,
+      "type_domain": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null,
+      "dn_x": null,
+      "dn_y": null,
+      "dn_size": 19.289712886816485,
+      "dn": null
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "type": "straightArrow",
+      "source": 10,
+      "target": 20,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 50,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": 10
+        },
+        "2": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 2,
+      "type": "straightArrow",
+      "source": 20,
+      "target": 10,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 3,
+      "type": "straightArrow",
+      "source": 20,
+      "target": 30,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      },
+      "hover": false
+    },
+    {
+      "id": 4,
+      "type": "straightArrow",
+      "source": 30,
+      "target": 20,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 5,
+      "type": "straightArrow",
+      "source": 40,
+      "target": 30,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 6,
+      "type": "straightArrow",
+      "source": 30,
+      "target": 40,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 7,
+      "type": "straightArrow",
+      "source": 40,
+      "target": 50,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 0,
+      "type": "straightArrow",
+      "source": 50,
+      "target": 40,
+      "label": "TrustedBy",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 0
+        },
+        "1": {
+          "x": 25,
+          "y": -10
+        },
+        "2": {
+          "x": 50,
+          "y": 0
+        }
+      },
+      "cc_prev_type": "straightArrow",
+      "cc": {
+        "y": 2
+      }
+    }
+  ],
+  "spotlight": {
+    "17956": [
+      "INTERNAL.LOCAL",
+      0,
+      "",
+      "Domain",
+      ""
+    ],
+    "17957": [
+      "EXTERNAL.LOCAL",
+      0,
+      "",
+      "Domain",
+      ""
+    ]
+  }
+}

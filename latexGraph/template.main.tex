@@ -1,0 +1,33 @@
+\documentclass{article}
+% ==============================================================================
+%   template.main.tex ----------------------------------------------------------
+% ==============================================================================
+
+%   document styles ------------------------------------------------------------
+    \usepackage {tikz}
+    \usetikzlibrary {positioning}
+    \usepackage{blkarray}
+    \usepackage{caption}
+    \usepackage{latex/source/scientific}
+    \usepackage{latex/source/bibliography}
+    \usepackage{latex/source/figures}
+
+%   bibliography ---------------------------------------------------------------
+    \addbibresource{bibliography/topographic-objects.bib}
+
+%   document -------------------------------------------------------------------
+% ==============================================================================
+    \title{Network Centrality Calculator with User Friendly Interface}
+    \author{Hannes St\"ark}
+    \begin{document}
+
+%   appendix -------------------------------------------------------------------
+
+%   content: -------------------------------------------------------------------
+    \input{latex/tex/template.tex}
+
+% bibliography ---------------------------------------------------------------
+    \pagebreak % @formatting    
+    \printbibliography
+    
+\end{document}

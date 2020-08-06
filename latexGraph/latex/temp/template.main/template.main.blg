@@ -1,0 +1,15 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'C:\Users\Hannes\projects\graph\latexGraph\latex\temp\template.main\template.main.blg'
+[38] biber-MSWIN64:315> INFO - === 
+[81] Biber.pm:371> INFO - Reading 'C:\Users\Hannes\projects\graph\latexGraph\latex\temp\template.main\template.main.bcf'
+[189] Biber.pm:889> INFO - Found 3 citekeys in bib section 0
+[204] Biber.pm:4093> INFO - Processing section 0
+[220] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliography/topographic-objects.bib' for section 0
+[236] bibtex.pm:1523> INFO - LaTeX decoding ...
+[388] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliography/topographic-objects.bib'
+[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[431] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[431] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[435] bbl.pm:636> INFO - Writing 'C:\Users\Hannes\projects\graph\latexGraph\latex\temp\template.main\template.main.bbl' with encoding 'latin1'
+[437] bbl.pm:739> INFO - Output to C:\Users\Hannes\projects\graph\latexGraph\latex\temp\template.main\template.main.bbl
