@@ -6,7 +6,7 @@ Run `/NetworkCentralityCalculator/runApp.R` in an R environment.
 
 You can now navigate to `localhost:3200` in your browser and calculate different ranking metrics on a test graph or upload your own graph.
 
-![Example of dependency centrality](\latexGraph\images\figures\calculatorDependencyExample.PNG)
+![Example of dependency centrality](/latexGraph/images/figures/calculatorDependencyExample.PNG)
 
 ## Ranking metrics
 
