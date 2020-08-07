@@ -14,7 +14,7 @@ The tool offers 5 different ranking or "centrality" metrics
 * Degree Centrality
 * Closeness Centrality
 * Betweenness Centrality
-* Eigenvector Centrality (PageRank)
+* Eigen Centrality 
 * Dependency Centrality 
 
 The meaning of the metrics, how they are calculated and how to use the tool is explained in the [paper](node_rankings_explained.pdf).
